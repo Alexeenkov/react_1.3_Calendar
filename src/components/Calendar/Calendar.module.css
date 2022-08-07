@@ -1,0 +1,128 @@
+.uiDatepicker,
+.uiDatepickerMaterialHeader {
+    font-family: 'Roboto', sans-serif;
+}
+
+.uiDatepicker .uiDatepickerHeader,
+.uiDatepicker .uiDatepickerTitle,
+.uiDatepicker table {
+    margin: 0;
+}
+
+.uiDatepicker .uiDatepickerTitle {
+    padding: 10px;
+}
+
+.uiDatepicker table {
+    width: inherit;
+    border-collapse: collapse;
+}
+
+.uiDatepicker .uiDatepickerHeader {
+    background-color: #1F3A58;
+    color: white;
+    width: inherit;
+}
+
+.uiDatepickerMaterialHeader {
+    display: block;
+    background-color: #284B72;
+    color: white;
+    text-align: center;
+    width: 325px;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDay {
+    background-color: #1F3A58;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate {
+    padding: 20px;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialMonth,
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialDayNum,
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialYear {
+    padding: 5px;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialMonth {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialDayNum {
+    font-size: 4.5rem;
+}
+
+.uiDatepickerMaterialHeader .uiDatepickerMaterialDate .uiDatepickerMaterialYear {
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.uiDatepicker {
+    display: block;
+    margin: 50px auto 0;
+    padding: 0;
+    border: none;
+    box-shadow: 0 12px 36px 16px rgba(0, 0, 0, 0.24);
+    width: 325px;
+}
+
+.uiCornerAll {
+    border-radius: 0;
+}
+
+.ui-widgetHeader {
+    border: 0;
+}
+
+.uiDatepickerHeader {
+    text-align: center;
+    background: white;
+    font-weight: 300;
+}
+
+.uiDatepickerCalendar .uiStateActive {
+    border-radius: 50%;
+    background-color: #284B72;
+    color: white;
+}
+
+.uiDatepickerCalendar thead th {
+    color: #999999;
+    font-weight: 200;
+    height: 33px;
+    width: 33px;
+    line-height: 36px;
+}
+
+.uiDatepickerCalendar tbody td {
+    background: none;
+    border: none;
+    text-align: center;
+    height: 33px;
+    width: 33px;
+    line-height: 36px;
+}
+
+.uiDatepickerCalendar tbody td.uiDatepickerToday {
+    background-color: #284B72;
+    color: white;
+}
+
+.uiDatepickerCalendar tbody td.uiDatepickerOtherMonth {
+    opacity: 0.35;
+}
+
+.uiDatepickerCalendar .uiDatepickerWeekEnd {
+    background-color: #b4cbe5;
+}
+
+#root {
+    width: 325px;
+    margin: 50px auto;
+}
